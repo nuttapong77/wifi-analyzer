@@ -1,0 +1,6 @@
+2024-12-15 16:23:37,344 [INFO] Collecting metrics...
+2024-12-15 16:23:37,344 [ERROR] Error collecting metrics: name 'get_wifi_info' is not defined
+Traceback (most recent call last):
+  File "d:\Project192\Main.py", line 36, in collect_metrics
+    elif 'Radio type' in line:
+NameError: name 'get_wifi_info' is not defined
